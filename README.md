@@ -76,6 +76,14 @@ The Model is giving us a test accuracy of 50% while the loss is 1.12. Ideally wa
 ![image](https://github.com/Zarmeena667/LHL-Final-Project/assets/145514413/f37dea8d-9aba-41b8-8a15-f497f0710d6f)
 
 
+![image](https://github.com/Zarmeena667/LHL-Final-Project/assets/145514413/a81fd9d5-4b4a-478f-8857-03b406087bf3)
+
+
+![image](https://github.com/Zarmeena667/LHL-Final-Project/assets/145514413/964caaeb-9f17-4889-adb7-251358dcad7a)
+
+
+
+
 Initially, both losses decrease as the number of epochs increases, which is expected as the model learns from the data. However, after the third epoch, the validation loss increases while the training loss continues to decrease, which may indicate that the model is starting to overfit the training data. Overfitting happens when a model learns the details and noise in the training data to an extent that it negatively impacts the performance of the model on new data.
 
 The training accuracy consistently increases, which is good as it means the model is getting better at predicting the training data. However, the validation accuracy increases only slightly and then plateaus, suggesting that the model is not improving on the validation dataset as much as on the training dataset. We will now further test the performance of our model by plotting a confusion_matrix. 
@@ -86,6 +94,13 @@ _Transfer Learning Model (VGG-16)_<br>
 This model provides us an accuracy of 83% which is a marked improvement from 50% accuracy of the previous model. The loss is also close to 0 which means are model is performing better. 
 
 ![image](https://github.com/Zarmeena667/LHL-Final-Project/assets/145514413/9b916fa6-3506-4b02-a1ec-8d1f0e7fda38)
+
+
+![image](https://github.com/Zarmeena667/LHL-Final-Project/assets/145514413/e48c621f-1a94-4f05-9bd2-a9bb77d628ce)
+
+![image](https://github.com/Zarmeena667/LHL-Final-Project/assets/145514413/5d2cc94f-a092-4902-a432-d5ca6f9c8add)
+
+
 
 After an initial sharp decrease, the training loss levels off, which is typical as the model begins to converge to a solution.  Like the training loss, validation loss decreases sharply at first and then stabilizes. However, it appears to be slightly increasing towards the later epochs, which could be a sign of overfitting, where the model performs well on the training data but is failing to generalize to unseen data.
 
