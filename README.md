@@ -61,9 +61,9 @@ Pre-processing involved image resizing, Image resizing, normalization, label enc
 
 ![CNN Diagram](https://github.com/Zarmeena667/LHL-Final-Project/assets/145514413/4a66ca25-881e-4a14-8b01-9273b2568f1b)
 
-I began with training a CNN model from scratch to provide a starting point and a baseline for my project. I kept the model simple to avoid over-fitting. An illustration of the model is shared below (for details on the structure, please refer to the notebook). 
+I began with training a CNN model from scratch to provide a starting point and a baseline for my project. I maintained a simple model design due to the limited data available, which was a strategic choice to prevent overfitting from the outset. An illustration of the model is shared above (for details on the structure, please refer to the notebook). 
 I used a small batch-size so that the model can learn from each individual example although it takes longer to train. A larger batch size trains faster but it may result in the model not capturing the nuances in the data.<br> 
-The model performance was then evaluated against test and validation data and through the metrics of accuracy and loss. The model performance was unsatisfactory (refer to the results section) and so then I proceeded to incorporate transfer learning through a pre-trained model. 
+The model performance was then evaluated against test and validation data and through the metrics of accuracy and loss. The model performance was unsatisfactory (refer to the results section) and so then I proceeded to incorporate transfer learning through the pre-trained VGG-16 model. 
 
 # Transfer learning model<br>
 For this model, I added in custom layers and used ‘freeze the weights’ technique to to avoid destroying any of the information contained by base layers during the first few epochs of training. I then evaluated this model using the same metrics as the first model.
