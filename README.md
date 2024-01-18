@@ -11,11 +11,15 @@ I wanted to pick a project which could help me assess if I have learned the art 
 # Task:<br>
 Image classification of 4 Rabbit Breeds using convolutional Neural Network
 
+![Screenshot 2024-01-17 184301](https://github.com/Zarmeena667/LHL-Final-Project/assets/145514413/bff4a890-fcb0-49da-9c62-225c2b78617f)
+
+
 # Tools Used<br>
 
 •	Notebook: Google Colab for model development and training.<br>
 •	Web Framework: Flask, with the development environment set up in Visual Studio Code.<br>
 •	Data Collection: Bulk image download in a ZIP file format.<br>
+- Draw.io: Flowchart, CNN Architecture illustration
 
 # Repository Guide
 The project comprises several key components designed to work in harmony:
@@ -31,15 +35,17 @@ o	Flask Application Script: flask_app.py is the backbone script that uses Flask 
 
 Shared below is the process workflow:
 
+![Untitled Diagramkk](https://github.com/Zarmeena667/LHL-Final-Project/assets/145514413/3fc2a4d1-d516-4b87-a1ca-089259e27083)
 
  
 
 # Preparation<br>
-•	Research on CNN architectures<br>
-•	Decision on computational resources - chose Google Colab for cloud GPU access<br>
-•	Vetting data that can be used for the project<br>
+- Research on CNN architectures<br>
+- Decision on computational resources - chose Google Colab for cloud GPU access<br>
+- Vetting data that can be used for the project<br>
 
 # Data collection<br>
+
 Sources: Google Images, Facebook Rabbit Community, Instagram<br>
 Number of images per breed: <br>
 California: 104<br>
@@ -48,9 +54,13 @@ Holland Lop: 103<br>
 Lionhead: 105<br>
 
 # Pre-processing:<br>
+
 Pre-processing involved image resizing, Image resizing, normalization, label encoding (one-hot), shuffling and adding weights (due to imbalance in classes).
 
 # CNN Model trained from scratch<br>
+
+![CNN Diagram](https://github.com/Zarmeena667/LHL-Final-Project/assets/145514413/4a66ca25-881e-4a14-8b01-9273b2568f1b)
+
 I began with training a CNN model from scratch to provide a starting point and a baseline for my project. I kept the model simple to avoid over-fitting. An illustration of the model is shared below (for details on the structure, please refer to the notebook). 
 I used a small batch-size so that the model can learn from each individual example although it takes longer to train. A larger batch size trains faster but it may result in the model not capturing the nuances in the data.<br> 
 The model performance was then evaluated against test and validation data and through the metrics of accuracy and loss. The model performance was unsatisfactory (refer to the results section) and so then I proceeded to incorporate transfer learning through a pre-trained model. 
@@ -82,10 +92,12 @@ After an initial sharp decrease, the training loss levels off, which is typical 
 The training accuracy seems to be quite high and stable, indicating the model performs well on the training set. The validation accuracy appears relatively stable after the initial epochs, but it does not reach the same high level as the training accuracy, which again suggests the model may not generalize as well to new data. We have however achieved a good level of accuracy and a decreased loss, so we will further evaluate our model using a confusion matrix.
  
 # Insights & conclusion:
+
 -	The project helped me asses how we can leverage CNNs when working with limited datasets. While being able to work with larger datasets to train the neural networks is ideal, we may not always have the option to acquire more data. 
 -	Rabbit Image Classification is challenging as the breeds have similar patterns.
 
 # Moving forward: 
+
 •	Display probability of the predicted class in the flask app
 •	Try data augmentation for the same dataset
 
