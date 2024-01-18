@@ -9,7 +9,7 @@ I wanted to pick a project which could help me assess if I have learned the art 
 •	A dive into deep learning to really test and grow my tech skills.<br>
 
 # Task:<br>
-Image classification of 4 Rabbit Breeds using convolutional Neural Network
+Image classification of 4 Rabbit Breeds using Convolutional Neural Network
 
 ![Screenshot 2024-01-17 184301](https://github.com/Zarmeena667/LHL-Final-Project/assets/145514413/bff4a890-fcb0-49da-9c62-225c2b78617f)
 
