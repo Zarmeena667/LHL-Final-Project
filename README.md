@@ -18,8 +18,8 @@ Image classification of 4 Rabbit Breeds using convolutional Neural Network
 
 -	Notebook: Google Colab for model development and training.<br>
 - Web Framework: Flask, with the development environment set up in Visual Studio Code.<br>
+- Draw.io: Flowchart, CNN Architecture
 - Data Collection: Bulk image download in a ZIP file format.<br>
-- Draw.io: Flowchart, CNN Architecture illustration
 
 # Repository Guide
 The project comprises several key components designed to work in harmony:
