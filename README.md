@@ -79,7 +79,8 @@ The Model is giving us a test accuracy of 50% while the loss is 1.12. Ideally wa
 ![image](https://github.com/Zarmeena667/LHL-Final-Project/assets/145514413/a81fd9d5-4b4a-478f-8857-03b406087bf3)
 
 
-![image](https://github.com/Zarmeena667/LHL-Final-Project/assets/145514413/964caaeb-9f17-4889-adb7-251358dcad7a)
+![image](https://github.com/Zarmeena667/LHL-Final-Project/assets/145514413/e94e18a9-208a-4338-a8c6-a13807666f8e)
+
 
 
 
