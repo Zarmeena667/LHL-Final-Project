@@ -114,7 +114,7 @@ The training accuracy seems to be quite high and stable, indicating the model pe
 
 # Moving forward: 
 
-•	Display probability of the predicted class in the flask app
+•	Display probability of the predicted class in the flask app<br>
 •	Try data augmentation for the same dataset
 
 
