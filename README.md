@@ -70,7 +70,7 @@ For this model, I added in custom layers and used ‘freeze the weights’ techn
 
 # Results<br>
 
-CNN- Model Trained from Scratch<br>
+** CNN- Model Trained from Scratch<br>
 The Model is giving us a test accuracy of 50% while the loss is 1.12. Ideally want the loss to be as close to 0 as possible and the accuracy to be as high as possible. We will now look at plots of epoch vs loss and epoch vs accuracy to further understand the model behaviour. 
 
 ![image](https://github.com/Zarmeena667/LHL-Final-Project/assets/145514413/f37dea8d-9aba-41b8-8a15-f497f0710d6f)
@@ -81,7 +81,7 @@ Initially, both losses decrease as the number of epochs increases, which is expe
 The training accuracy consistently increases, which is good as it means the model is getting better at predicting the training data. However, the validation accuracy increases only slightly and then plateaus, suggesting that the model is not improving on the validation dataset as much as on the training dataset. We will now further test the performance of our model by plotting a confusion_matrix. 
 
  
-Transfer Learning Model (VGG-16)
+** Transfer Learning Model (VGG-16)
 
 This model provides us an accuracy of 83% which is a marked improvement from 50% accuracy of the previous model. The loss is also close to 0 which means are model is performing better. 
 
