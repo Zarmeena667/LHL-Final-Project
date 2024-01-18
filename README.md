@@ -2,13 +2,14 @@
 
 # Motivation:
 
-I wanted to pick a project which could help me assess if I have learned the art of learning. I chose something that brought together:
-•	My love for bunnies and their adorable ways.
-•	A focus on creating a visually engaging app.
-•	A dive into deep learning to really test and grow my tech skills.
+I wanted to pick a project which could help me assess if I have learned the art of learning. I chose something that brought together:<br>
+•	My love for bunnies and their adorable ways.<br>
+•	A focus on creating a visually engaging app.<br>
+•	A dive into deep learning to really test and grow my tech skills.<br>
+
 Task: Image classification of 4 Rabbit Breeds using convolutional Neural Network
 
-Tools Used
+Tools Used<br>
 •	Notebook: Google Colab for model development and training.
 •	Web Framework: Flask, with the development environment set up in Visual Studio Code.
 •	Data Collection: Bulk image download in a ZIP file format.
