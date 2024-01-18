@@ -25,10 +25,10 @@ Image classification of 4 Rabbit Breeds using convolutional Neural Network
 The project comprises several key components designed to work in harmony:
 1.	Rabbit Breed Dataset: This includes comprehensive data on all the rabbit breeds I have interacted with, forming the foundation for the model training.
 2.	Modeling Notebook: Utilizing Google Colab, I've developed and refined my deep learning model in an accessible and powerful cloud-based environment. 
-3.	Image Classification Application:
-o	Static Folder: Contains the static assets required for the web application.
-o	Templates: Features the index.html file which serves as the front-end interface for user interaction.
-o	Trained Model File: rabbit_breeds_classifier_vgg.h5, the heart of the app, which is the trained VGG16 deep learning model.
+3.	Image Classification Application:<br>
+o	Static Folder: Contains the static assets required for the web application.<br>
+o	Templates: Features the index.html file which serves as the front-end interface for user interaction.<br>
+o	Trained Model File: rabbit_breeds_classifier_vgg.h5, the heart of the app, which is the trained VGG16 deep learning model.<br>
 o	Flask Application Script: flask_app.py is the backbone script that uses Flask to serve the model and handle the web app's functionality.
 
 # Process Outline
